@@ -4,7 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "design:modules": "babel-node ./src/modules/main.js"
+    "design:modules": "babel-node ./src/modules/index.js",
+    "design:hof": "babel-node ./src/higherOrderFunctions/index.js",
+    "design:callbacks": "babel-node ./src/callbacks/index.js",
+    "design:closures": "babel-node ./src/closures/index.js",
+    "design:currying": "babel-node ./src/currying/index.js",
+    "design:recursion": "babel-node ./src/recursion/index.js",
+    "design:memoization": "babel-node ./src/memoization/index.js",
+    "design:decorator": "babel-node ./src/decorator/index.js",
+    "design:chaining": "babel-node ./src/chaining/index.js"
   },
   "repository": {
     "type": "git",
