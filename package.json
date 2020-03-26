@@ -1,0 +1,26 @@
+{
+  "name": "design-patterns-article",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "design:modules": "babel-node ./src/modules/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarioSimou/design-patterns-article.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarioSimou/design-patterns-article/issues"
+  },
+  "homepage": "https://github.com/MarioSimou/design-patterns-article#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/node": "^7.8.7",
+    "@babel/preset-env": "^7.9.0"
+  }
+}
